@@ -12,7 +12,7 @@ namespace My.NetWebApp.Tests
             Xunit.Assert.Equal("User", user);
         }
 
-        public void Test1(string user="User")
+        public void Test1(string user="user 1")
         {
             //var user = "User";
             Xunit.Assert.Equal("User", user);
